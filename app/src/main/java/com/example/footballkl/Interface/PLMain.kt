@@ -12,6 +12,6 @@ interface PLMain {
     @get:GET("v2/competitions/2021")
     @get:Headers("X-Auth-Token: 161d94ea5ccd478596a33f51876bd457")
 
-    val mainPLCall : Call<MainPLModel>
+    val mainPLCall : Call<MainPLModel?>?
 
 }
